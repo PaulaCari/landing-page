@@ -16,18 +16,15 @@ header {
 
 .section {
   background-color: #f0f0f0;
-  /* Example background color for sections */
   padding: 20px;
 }
 
 .section h2 {
   color: #333;
-  /* Example text color for headings */
 }
 
 .section p {
   color: #666;
-  /* Example text color for paragraphs */
 }
 
 
@@ -41,12 +38,12 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 p {
   padding: 0px 12px 0px 12px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 main {
@@ -55,7 +52,7 @@ main {
 }
 
 .produtos {
-
+  padding: 0px 45px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -69,8 +66,8 @@ main {
 }
 
 .produto img {
-  width: 75%;
-  height: 200px;
+  width: 95%;
+  height: 250px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -129,8 +126,8 @@ a:visited {
 
 footer p {
   background-image: url('./image/Gemini_Generated_Image_39mvl039mvl039mv.jpeg');
-
   background-size: cover;
+  padding: 10px;
   text-align: center;
   color: #f7f4f4;
   margin: 0;
